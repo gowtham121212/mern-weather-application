@@ -1,0 +1,51 @@
+
+   .weather-card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .weather-info {
+    margin-bottom: 20px;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  
+  .value {
+    font-size: 18px;
+    margin: 0;
+  }
+  
